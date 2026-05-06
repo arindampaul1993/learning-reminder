@@ -12,11 +12,11 @@ PLAN = [
         "hours": "~5h",
         "phase": "Foundations",
         "tasks": [
-            {"type": "video", "title": "3Blue1Brown 'Neural Networks' videos 1-3", "time": "~1h", "topic": "Parameters, backpropagation basics"},
-            {"type": "video", "title": "Karpathy 'Intro to Large Language Models'", "time": "~1h", "topic": "LLM landscape overview"},
-            {"type": "build", "title": "Karpathy 'Building Micrograd'", "time": "~2.5h", "topic": "Neural net from scratch in Python"},
+            {"type": "video", "title": "3Blue1Brown 'Neural Networks' videos 1-3", "time": "~1h", "topic": "Parameters, backpropagation basics", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"},
+            {"type": "video", "title": "Karpathy 'Intro to Large Language Models'", "time": "~1h", "topic": "LLM landscape overview", "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g"},
+            {"type": "build", "title": "Karpathy 'Building Micrograd'", "time": "~2.5h", "topic": "Neural net from scratch in Python", "url": "https://www.youtube.com/watch?v=VMj-3S1tku0"},
         ],
-        "supplemental": ["Read: Scaling Laws paper (Chinchilla) for LLM scaling insight"],
+        "supplemental": ["Read: <a href='https://arxiv.org/abs/2203.15556'>Scaling Laws paper (Chinchilla)</a> for LLM scaling insight"],
         "goal": "Understand neural network basics + LLM training paradigms",
     },
     {
@@ -25,11 +25,11 @@ PLAN = [
         "hours": "~4h",
         "phase": "Foundations",
         "tasks": [
-            {"type": "build", "title": "Karpathy 'Let's build the GPT Tokenizer'", "time": "~2.25h", "topic": "BPE tokenization from scratch"},
-            {"type": "video", "title": "3Blue1Brown 'But what is a GPT?'", "time": "~26min", "topic": "Visual GPT intuition"},
-            {"type": "video", "title": "3Blue1Brown 'Attention in Transformers'", "time": "~26min", "topic": "Attention mechanism visual"},
+            {"type": "build", "title": "Karpathy 'Let's build the GPT Tokenizer'", "time": "~2.25h", "topic": "BPE tokenization from scratch", "url": "https://www.youtube.com/watch?v=zduSFxRajkE"},
+            {"type": "video", "title": "3Blue1Brown 'But what is a GPT?'", "time": "~26min", "topic": "Visual GPT intuition", "url": "https://www.youtube.com/watch?v=wjZofJX0v4M"},
+            {"type": "video", "title": "3Blue1Brown 'Attention in Transformers'", "time": "~26min", "topic": "Attention mechanism visual", "url": "https://www.youtube.com/watch?v=eMlx5fFNoYc"},
         ],
-        "supplemental": ["Read: Jay Alammar 'Illustrated Word2Vec' (vectorization basics)"],
+        "supplemental": ["Read: <a href='https://jalammar.github.io/illustrated-word2vec/'>Jay Alammar 'Illustrated Word2Vec'</a> (vectorization basics)"],
         "goal": "Learn tokenization (BPE), embeddings, and intro to attention",
     },
     {
@@ -38,11 +38,11 @@ PLAN = [
         "hours": "~3h",
         "phase": "Foundations",
         "tasks": [
-            {"type": "read", "title": "The Illustrated Transformer (Jay Alammar)", "time": "~1h", "topic": "Visual transformer walkthrough"},
-            {"type": "read", "title": "Sebastian Raschka 'Understanding & Coding all Attention Types'", "time": "~1h", "topic": "Attention variants"},
-            {"type": "read", "title": "Annotated Transformer (Harvard NLP)", "time": "~1h", "topic": "Code-level transformer"},
+            {"type": "read", "title": "The Illustrated Transformer (Jay Alammar)", "time": "~1h", "topic": "Visual transformer walkthrough", "url": "https://jalammar.github.io/illustrated-transformer/"},
+            {"type": "read", "title": "Sebastian Raschka 'Understanding & Coding all Attention Types'", "time": "~1h", "topic": "Attention variants", "url": "https://magazine.sebastianraschka.com/p/understanding-and-coding-self-attention"},
+            {"type": "read", "title": "Annotated Transformer (Harvard NLP)", "time": "~1h", "topic": "Code-level transformer", "url": "https://nlp.seas.harvard.edu/annotated-transformer/"},
         ],
-        "supplemental": ["Optional: Umar Jamil transformer video"],
+        "supplemental": ["Optional: <a href='https://www.youtube.com/watch?v=bQ5BoolX9Ag'>Umar Jamil transformer video</a>"],
         "goal": "Understand Q/K/V attention, multi-head, FFNN, and transformer building blocks",
     },
     {
@@ -51,10 +51,10 @@ PLAN = [
         "hours": "~3h",
         "phase": "Foundations",
         "tasks": [
-            {"type": "build", "title": "Karpathy 'Let's build GPT' (transformer from scratch)", "time": "~2h", "topic": "Build autoregressive transformer"},
-            {"type": "read", "title": "Review and consolidate Month 1 concepts", "time": "~1h", "topic": "Solidify foundations"},
+            {"type": "build", "title": "Karpathy 'Let's build GPT' (transformer from scratch)", "time": "~2h", "topic": "Build autoregressive transformer", "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY"},
+            {"type": "read", "title": "nanoGPT repo — explore and run", "time": "~1h", "topic": "Solidify foundations", "url": "https://github.com/karpathy/nanoGPT"},
         ],
-        "supplemental": ["Go deeper: nanoGPT repo exploration"],
+        "supplemental": ["Go deeper: <a href='https://github.com/karpathy/nanoGPT'>nanoGPT repo</a> exploration"],
         "goal": "Build a simple autoregressive transformer",
     },
     {
@@ -63,10 +63,10 @@ PLAN = [
         "hours": "~3h",
         "phase": "Training & Optimization",
         "tasks": [
-            {"type": "video", "title": "Karpathy 'Deep Dive into LLMs like ChatGPT'", "time": "~2h", "topic": "End-to-end training pipeline"},
-            {"type": "read", "title": "Hugging Face 'Illustrating RLHF'", "time": "~30min", "topic": "Reinforcement learning from human feedback"},
+            {"type": "video", "title": "Karpathy 'Deep Dive into LLMs like ChatGPT'", "time": "~2h", "topic": "End-to-end training pipeline", "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI"},
+            {"type": "read", "title": "Hugging Face 'Illustrating RLHF'", "time": "~30min", "topic": "Reinforcement learning from human feedback", "url": "https://huggingface.co/blog/rlhf"},
         ],
-        "supplemental": ["Hugging Face training workflow blogs"],
+        "supplemental": ["<a href='https://huggingface.co/blog'>Hugging Face training workflow blogs</a>"],
         "goal": "End-to-end view of LLM training lifecycle (pretrain → post-train)",
     },
     {
@@ -75,11 +75,11 @@ PLAN = [
         "hours": "~5h",
         "phase": "Training & Optimization",
         "tasks": [
-            {"type": "read", "title": "Introduction to Weight Quantization", "time": "~45min", "topic": "INT8/INT4, KV cache optimization"},
-            {"type": "read", "title": "Practical LoRA/QLoRA tips", "time": "~30min", "topic": "Parameter-efficient fine-tuning"},
-            {"type": "build", "title": "Hugging Face PEFT Quickstart (LoRA fine-tuning)", "time": "~2h", "topic": "Hands-on fine-tuning exercise"},
+            {"type": "read", "title": "Introduction to Weight Quantization", "time": "~45min", "topic": "INT8/INT4, KV cache optimization", "url": "https://mlabonne.github.io/blog/posts/Introduction_to_Weight_Quantization.html"},
+            {"type": "read", "title": "Practical LoRA/QLoRA tips", "time": "~30min", "topic": "Parameter-efficient fine-tuning", "url": "https://huggingface.co/blog/lora-adapters-dynamic-loading"},
+            {"type": "build", "title": "Hugging Face PEFT Quickstart (LoRA fine-tuning)", "time": "~2h", "topic": "Hands-on fine-tuning exercise", "url": "https://huggingface.co/docs/peft/quicktour"},
         ],
-        "supplemental": ["DeepLearning.AI quantization short course (optional)"],
+        "supplemental": ["<a href='https://www.deeplearning.ai/short-courses/quantization-fundamentals/'>DeepLearning.AI quantization short course</a> (optional)"],
         "goal": "Learn quantization basics and perform a fine-tuning exercise",
     },
     {
@@ -88,11 +88,11 @@ PLAN = [
         "hours": "~4h",
         "phase": "RAG & Retrieval",
         "tasks": [
-            {"type": "video", "title": "LangChain 'RAG from Scratch' videos 1-5", "time": "~2h", "topic": "RAG architecture fundamentals"},
-            {"type": "read", "title": "Pinecone HNSW explainer", "time": "~20min", "topic": "Vector search algorithms"},
-            {"type": "build", "title": "ChromaDB hands-on", "time": "~1h", "topic": "Local vector database experimentation"},
+            {"type": "video", "title": "LangChain 'RAG from Scratch' videos 1-5", "time": "~2h", "topic": "RAG architecture fundamentals", "url": "https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x"},
+            {"type": "read", "title": "Pinecone HNSW explainer", "time": "~20min", "topic": "Vector search algorithms", "url": "https://www.pinecone.io/learn/series/faiss/hnsw/"},
+            {"type": "build", "title": "ChromaDB hands-on", "time": "~1h", "topic": "Local vector database experimentation", "url": "https://docs.trychroma.com/docs/overview/getting-started"},
         ],
-        "supplemental": ["DeepLearning.AI vector DB intro (optional)"],
+        "supplemental": ["<a href='https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/'>DeepLearning.AI vector DB intro</a> (optional)"],
         "goal": "Understand RAG architecture, indexing, and vector search basics",
     },
     {
@@ -101,9 +101,9 @@ PLAN = [
         "hours": "~6h",
         "phase": "RAG & Retrieval",
         "tasks": [
-            {"type": "video", "title": "LangChain 'RAG from Scratch' videos 6-10", "time": "~2h", "topic": "Advanced RAG patterns"},
-            {"type": "read", "title": "Prompt-injection safety basics", "time": "~30min", "topic": "Guardrails and safety"},
-            {"type": "build", "title": "DeepLearning.AI 'Chat with Your Data' course", "time": "~3h", "topic": "Build a full RAG chatbot"},
+            {"type": "video", "title": "LangChain 'RAG from Scratch' videos 6-10", "time": "~2h", "topic": "Advanced RAG patterns", "url": "https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x"},
+            {"type": "read", "title": "Prompt-injection safety basics", "time": "~30min", "topic": "Guardrails and safety", "url": "https://simonwillison.net/2022/Sep/12/prompt-injection/"},
+            {"type": "build", "title": "DeepLearning.AI 'Chat with Your Data' course", "time": "~3h", "topic": "Build a full RAG chatbot", "url": "https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/"},
         ],
         "supplemental": [],
         "goal": "Build a working RAG chatbot with safety/guardrails",
@@ -114,11 +114,11 @@ PLAN = [
         "hours": "~4h",
         "phase": "Agents & Production",
         "tasks": [
-            {"type": "read", "title": "Anthropic 'Building Effective Agents'", "time": "~1h", "topic": "Agent design patterns"},
-            {"type": "read", "title": "Lilian Weng 'LLM Powered Autonomous Agents'", "time": "~45min", "topic": "Agent architectures survey"},
-            {"type": "build", "title": "LangGraph customer support agent tutorial", "time": "~2h", "topic": "Build agent with tool integration"},
+            {"type": "read", "title": "Anthropic 'Building Effective Agents'", "time": "~1h", "topic": "Agent design patterns", "url": "https://docs.anthropic.com/en/docs/build-with-claude/agentic"},
+            {"type": "read", "title": "Lilian Weng 'LLM Powered Autonomous Agents'", "time": "~45min", "topic": "Agent architectures survey", "url": "https://lilianweng.github.io/posts/2023-06-23-agent/"},
+            {"type": "build", "title": "LangGraph customer support agent tutorial", "time": "~2h", "topic": "Build agent with tool integration", "url": "https://langchain-ai.github.io/langgraph/tutorials/customer-support/customer-support/"},
         ],
-        "supplemental": ["DeepLearning.AI agent tutorials"],
+        "supplemental": ["<a href='https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/'>DeepLearning.AI agent tutorials</a>"],
         "goal": "Build a basic agent with tool integration",
     },
     {
@@ -127,9 +127,9 @@ PLAN = [
         "hours": "~4h",
         "phase": "Agents & Production",
         "tasks": [
-            {"type": "read", "title": "MCP quickstart & architecture docs", "time": "~1h", "topic": "Model Context Protocol"},
-            {"type": "read", "title": "Agent memory concepts", "time": "~20min", "topic": "Memory and context management"},
-            {"type": "build", "title": "Build an MCP server hands-on", "time": "~2h", "topic": "Implement MCP server"},
+            {"type": "read", "title": "MCP quickstart & architecture docs", "time": "~1h", "topic": "Model Context Protocol", "url": "https://modelcontextprotocol.io/quickstart"},
+            {"type": "read", "title": "Agent memory concepts", "time": "~20min", "topic": "Memory and context management", "url": "https://lilianweng.github.io/posts/2023-06-23-agent/#memory"},
+            {"type": "build", "title": "Build an MCP server hands-on", "time": "~2h", "topic": "Implement MCP server", "url": "https://modelcontextprotocol.io/quickstart/server"},
         ],
         "supplemental": [],
         "goal": "Understand multi-agent memory and context engineering",
@@ -140,10 +140,10 @@ PLAN = [
         "hours": "~4h",
         "phase": "Agents & Production",
         "tasks": [
-            {"type": "read", "title": "Why evals matter (Hamel Husain / Eugene Yan)", "time": "~30min", "topic": "Eval philosophy"},
-            {"type": "read", "title": "LLM-as-judge tutorial", "time": "~30min", "topic": "Using LLMs to evaluate LLMs"},
-            {"type": "read", "title": "Patterns for LLM systems in production", "time": "~45min", "topic": "Production design patterns"},
-            {"type": "build", "title": "Set up basic evals (DeepEval or custom)", "time": "~1.5h", "topic": "Build evaluation harness"},
+            {"type": "read", "title": "Why evals matter (Hamel Husain)", "time": "~30min", "topic": "Eval philosophy", "url": "https://hamel.dev/blog/posts/evals/"},
+            {"type": "read", "title": "LLM-as-judge tutorial", "time": "~30min", "topic": "Using LLMs to evaluate LLMs", "url": "https://eugeneyan.com/writing/llm-evaluators/"},
+            {"type": "read", "title": "Patterns for LLM systems in production", "time": "~45min", "topic": "Production design patterns", "url": "https://eugeneyan.com/writing/llm-patterns/"},
+            {"type": "build", "title": "Set up basic evals (DeepEval or custom)", "time": "~1.5h", "topic": "Build evaluation harness", "url": "https://docs.confident-ai.com/docs/getting-started"},
         ],
         "supplemental": [],
         "goal": "Evaluate LLM outputs & understand tradeoffs (prompting vs RAG vs fine-tune)",
@@ -154,11 +154,11 @@ PLAN = [
         "hours": "~3h",
         "phase": "Agents & Production",
         "tasks": [
-            {"type": "read", "title": "OpenAI 'Learning to Reason with LLMs'", "time": "~20min", "topic": "Reasoning model design"},
-            {"type": "read", "title": "Chain-of-Thought prompting guide", "time": "~20min", "topic": "CoT techniques"},
-            {"type": "build", "title": "Try reasoning model demos (DeepSeek-R1, o1)", "time": "~1h", "topic": "Hands-on reasoning models"},
+            {"type": "read", "title": "OpenAI 'Learning to Reason with LLMs'", "time": "~20min", "topic": "Reasoning model design", "url": "https://openai.com/index/learning-to-reason-with-llms/"},
+            {"type": "read", "title": "Chain-of-Thought prompting guide", "time": "~20min", "topic": "CoT techniques", "url": "https://www.promptingguide.ai/techniques/cot"},
+            {"type": "build", "title": "Try reasoning model demos (DeepSeek-R1, o1)", "time": "~1h", "topic": "Hands-on reasoning models", "url": "https://chat.deepseek.com/"},
         ],
-        "supplemental": ["DeepSeek-R1 paper skim"],
+        "supplemental": ["<a href='https://arxiv.org/abs/2501.12948'>DeepSeek-R1 paper</a> skim"],
         "goal": "Understand chain-of-thought prompting and reasoning-style outputs",
     },
     {
@@ -167,9 +167,9 @@ PLAN = [
         "hours": "~3h",
         "phase": "Multimodal & Capstone",
         "tasks": [
-            {"type": "read", "title": "CLIP and multimodal model basics", "time": "~1h", "topic": "Vision-language connection"},
-            {"type": "read", "title": "GAN fundamentals overview", "time": "~1h", "topic": "Generative adversarial networks"},
-            {"type": "build", "title": "Explore multimodal API (Claude vision / GPT-4V)", "time": "~1h", "topic": "Hands-on multimodal"},
+            {"type": "read", "title": "CLIP and multimodal model basics", "time": "~1h", "topic": "Vision-language connection", "url": "https://openai.com/index/clip/"},
+            {"type": "read", "title": "GAN fundamentals overview", "time": "~1h", "topic": "Generative adversarial networks", "url": "https://developers.google.com/machine-learning/gan"},
+            {"type": "build", "title": "Explore multimodal API (Claude vision / GPT-4V)", "time": "~1h", "topic": "Hands-on multimodal", "url": "https://docs.anthropic.com/en/docs/build-with-claude/vision"},
         ],
         "supplemental": [],
         "goal": "Learn how to connect vision & text models",
@@ -180,10 +180,10 @@ PLAN = [
         "hours": "~4h",
         "phase": "Multimodal & Capstone",
         "tasks": [
-            {"type": "read", "title": "DDPM paper walkthrough / Lil'Log diffusion guide", "time": "~1.5h", "topic": "Diffusion fundamentals"},
-            {"type": "build", "title": "Stable Diffusion pipeline hands-on", "time": "~2h", "topic": "Build image generation pipeline"},
+            {"type": "read", "title": "DDPM paper walkthrough / Lil'Log diffusion guide", "time": "~1.5h", "topic": "Diffusion fundamentals", "url": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/"},
+            {"type": "build", "title": "Stable Diffusion pipeline hands-on", "time": "~2h", "topic": "Build image generation pipeline", "url": "https://huggingface.co/docs/diffusers/quicktour"},
         ],
-        "supplemental": ["Hugging Face diffusion models course"],
+        "supplemental": ["<a href='https://huggingface.co/learn/diffusion-course/'>Hugging Face diffusion models course</a>"],
         "goal": "Understand diffusion process and build an image generation pipeline",
     },
     {
@@ -192,7 +192,7 @@ PLAN = [
         "hours": "~10h",
         "phase": "Multimodal & Capstone",
         "tasks": [
-            {"type": "build", "title": "Build capstone: RAG + Agent + Evals system", "time": "~10h", "topic": "Full end-to-end AI application"},
+            {"type": "build", "title": "Build capstone: RAG + Agent + Evals system", "time": "~10h", "topic": "Full end-to-end AI application", "url": "https://github.com/arindampaul1993"},
         ],
         "supplemental": ["Options: Document Q&A, multi-tool agent, fine-tuned model deployment"],
         "goal": "Build a complete AI system using all learned techniques",
@@ -203,10 +203,10 @@ PLAN = [
         "hours": "~3h",
         "phase": "Multimodal & Capstone",
         "tasks": [
-            {"type": "read", "title": "AI engineering best practices roundup", "time": "~1h", "topic": "Production principles"},
-            {"type": "build", "title": "Polish capstone: docs, demo, deploy", "time": "~2h", "topic": "Ship it"},
+            {"type": "read", "title": "AI engineering best practices roundup", "time": "~1h", "topic": "Production principles", "url": "https://applied-llms.org/"},
+            {"type": "build", "title": "Polish capstone: docs, demo, deploy", "time": "~2h", "topic": "Ship it", "url": "https://huggingface.co/spaces"},
         ],
-        "supplemental": ["Deploy on HuggingFace Spaces or Vercel"],
+        "supplemental": ["Deploy on <a href='https://huggingface.co/spaces'>HuggingFace Spaces</a> or Vercel"],
         "goal": "Finalize capstone project and publish portfolio piece",
     },
 ]
@@ -226,13 +226,15 @@ def build_email_html(week_data, week_num):
     tasks_html = ""
     for task in week_data["tasks"]:
         icon = type_icons.get(task["type"], "📌")
+        url = task.get("url", "")
+        title_html = f'<a href="{url}" style="color: #81c784; text-decoration: underline;">{task["title"]}</a>' if url else f'<span style="color: #e0e0e0;">{task["title"]}</span>'
         tasks_html += f"""
         <tr>
             <td style="padding: 12px; border-bottom: 1px solid #2d2d2d;">
                 <span style="font-size: 18px;">{icon}</span>
             </td>
             <td style="padding: 12px; border-bottom: 1px solid #2d2d2d;">
-                <strong style="color: #e0e0e0;">{task['title']}</strong><br>
+                <strong>{title_html}</strong><br>
                 <span style="color: #888; font-size: 13px;">{task['time']} — {task['topic']}</span>
             </td>
         </tr>"""
